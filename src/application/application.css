@@ -1,0 +1,7 @@
+ .degradado{
+ 	-fx-background-color:rgba(214, 160, 44, 0.9);
+}
+.fuente1{
+	-fx-font-family: "meatloaf";
+	-fx-font-size:150px; 
+}	

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minHeight="480.0" minWidth="640.0" styleClass="degradado" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="21.0" layoutY="142.0" minHeight="211.0" minWidth="400.0" prefHeight="317.0" prefWidth="601.0" style="-fx-background-color: rgba(19, 15, 1,0.2);">
+         <children>
+            <Group layoutX="139.0" layoutY="91.0">
+               <children>
+                  <JFXTextField layoutX="44.0" prefHeight="37.0" prefWidth="235.0" promptText="UserName" style="-fx-background-color: rgba(255, 255, 255);" unFocusColor="#5e0303">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </JFXTextField>
+                  <JFXPasswordField layoutX="44.0" layoutY="43.0" prefHeight="37.0" prefWidth="235.0" promptText="Password" style="-fx-background-color: rgba(255, 255, 255);" />
+                  <ImageView fitHeight="37.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Users/alex/Desktop/JAR/181501-interface/png/user-3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="37.0" fitWidth="38.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Users/alex/Desktop/JAR/181501-interface/png/unlock.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton layoutX="44.0" layoutY="87.0" prefHeight="37.0" prefWidth="235.0" style="-fx-background-color: rgba(109,7,26);" text="Log In" textFill="WHITE" />
+                  <JFXCheckBox checkedColor="#750303" layoutX="37.0" layoutY="136.0" text="Stay logged in" textFill="#570703" unCheckedColor="#650101" />
+                  <Text fill="#570703" layoutX="183.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forgot password?" wrappingWidth="111.03711128234863" />
+               </children>
+            </Group>
+            <Group layoutX="105.0" layoutY="279.0">
+               <children>
+                  <Text fill="#570703" layoutX="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Term of Service" wrappingWidth="96.27655408712678">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#570703" layoutX="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and" wrappingWidth="36.99999809265137" />
+                  <Text fill="#570703" layoutX="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Privacy Policy" wrappingWidth="81.99999809265137">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#570703" layoutX="16.0" strokeType="OUTSIDE" strokeWidth="0.0" text="By registering, I accept the" wrappingWidth="149.27655408712678" />
+               </children>
+            </Group>
+         </children></Pane>
+      <ImageView fitHeight="138.0" fitWidth="138.0" layoutX="253.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Users/alex/Desktop/heart.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
